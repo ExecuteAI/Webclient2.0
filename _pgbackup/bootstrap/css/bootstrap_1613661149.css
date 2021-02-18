@@ -239,7 +239,6 @@ label {
 
 button {
     border-radius: 0;
-    font-size: 1px;
 }
 
 button:focus:not(:focus-visible) {
@@ -603,7 +602,6 @@ pre code {
     .container-md,
     .container-lg {
         max-width: 960px;
-        max-height: 50px;
     }
 }
 
@@ -2878,8 +2876,6 @@ textarea.form-control.is-invalid {
 
 .btn:not(:disabled):not(.disabled) {
     cursor: pointer;
-    width: 299px;
-    height: 43px;
 }
 
 a.btn.disabled,
